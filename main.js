@@ -11,7 +11,7 @@ app.whenReady().then(() => {
     },
   });
 
-  mainWindow.loadURL('http://localhost:5173'); // Puerto donde corre Vite
+  mainWindow.loadURL('http://localhost:5173');
 });
 
 app.on('window-all-closed', () => {
